@@ -1,0 +1,128 @@
+body {
+margin : 0;
+padding : 0;
+text-align : left;
+color : #333;
+background : #858563 url(img/bgd.png) repeat-y top center;
+font : 75% "Trebuchet MS", verdana, arial, tahoma, sans-serif;
+}
+#container {
+width : 750px;
+margin : 0 auto;
+padding : 0;
+color : #aaa;
+background : #404040;
+}
+			/*BANNER*/
+#banner {
+float : left;
+width : 750px;
+height : 180px;
+padding : 0;
+margin-bottom : 0;
+background: #eee url(img/banner.jpg);
+}
+
+#content {
+padding : 0 10px 0 10px;
+margin-left : 170px;
+margin-right : 170px;
+margin-top : 0;
+line-height : 1.8em;
+}
+#content h1 {
+padding : 20px 0 0 0;
+font : normal 1.4em verdana, tahoma, arial, sans-serif;
+text-transform : uppercase;
+letter-spacing : 3px;
+color : #acaf2c;
+background : inherit;
+text-align : center;
+}
+
+h1 {
+margin : 0 0 10px 0;
+font : normal 1.4em verdana, arial, tahoma, sans-serif;
+text-transform : uppercase;
+color : #acaf2c;
+background : inherit;
+}
+
+#wrapper{
+	padding: 4px;
+}
+
+#search-box{
+	width: 150px;
+	height: 10px;
+	font-size: 9px;
+}
+
+ 
+#header-form{
+float: left;
+}
+
+.row{
+	padding: 1px;
+}
+
+#signup-button{	
+	float:right;
+	margin-right: 5px;
+}
+
+ #center{
+	width:850px;
+	height:750px;
+	background-color: #aaa;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+ }
+
+
+#signup-form{
+	position: absolute;
+	margin-left: 400px;
+}
+
+ #add-button{
+ 	display:inline-block;
+ 	margin-top: 2px;
+ }
+ 
+ #list{
+ 	font-family:Arial;
+ 	font-weight: bold;
+ 	font-size: 25px;
+ 	line-height: 60px;
+ 	display:block;
+ 	margin-left: 15px;
+ }
+
+#edit-phone{
+	border:  1px solid yellow;
+	width: 120px;
+}
+
+#edit-name{
+	border:  1px solid yellow;
+	width: 120px;
+}
+
+#edit-input{
+	padding: 1px;
+
+}
+#change{
+	margin-top: -10px;
+	margin-left: 5px;	
+}
+
+ .highlight{
+ 	background-color: orange;
+ }
+
+ 
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	 <link href="newProject.css" rel="stylesheet" type="text/css">
+	 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	 <script type="text/javascript" src="newProject.js"></script>	 	
+</head>
+
+<body>
+	<div id ="container">
+		<div id="banner">
+			<div id="wrapper">
+				<ul class="nav nav-tabs">
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">Contact us</a></li>
+				</ul>
+
+				<img style="width:85px; height:85px; float:right;" class="img-circle" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWLlIE-cRVgaVO7YW--BYQTSqD9tpTwumhBO17ZGEgn1reTPyWdQ"/>
+
+				<button class="btn btn-warning  btn-mini" id="signup-button">
+					sign up
+				</button>
+		
+				<form id="header-form">
+					<input type="text" class="span3 search-query" id="search-box" placeholder="Search name"/>			
+					<input type="button" class="btn btn-info btn-mini" id="search-button" value="Search" />	
+				</form>	
+
+				<form id="signup-form" class ="well span6">
+					<label>Username</label>
+					<input type ="text" id="username"class ="span3" placeholder="Type username here..."/><br>
+					<label>E-mail</label>
+					<input type ="text" id="email" class ="span3"  placeholder="Type email here..."/><br>
+					<label>Password</label>
+					<input type ="text" id="password" class ="span3"  placeholder="Type password here..."/><br>
+					<label>Retype password</label>
+					<input type ="text" id="password-confirm"class ="span3"  placeholder="Type password here..."/><br>
+					<button id="submit-button" class ="btn btn-primary">Submit</button>
+					<button id="clear-button" class="btn">Clear</button>
+				</form>		
+			</div>
+		</div>
+
+		<div id="content">
+			 
+				<h1>Please enter contact.</h1><br>
+			
+				<div id="person-details">
+					<input id="person-name" type="text" value="" placeholder="Write contact name">
+					<input id="person-phone" type="text" value="" placeholder="Write contact Phone">
+				</div>
+
+				<button  class="btn btn-primary"  id="add-button">
+					Add!
+				</button><br>
+	
+				<ul id="list">
+					
+				</ul>
+			
+		</div>	
+	</div>	
+</body>
+</html>
